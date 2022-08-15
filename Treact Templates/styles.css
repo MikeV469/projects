@@ -11,10 +11,13 @@ html {
     scroll-behavior: smooth;
 }
 
-.row {
+/* NAV BAR */
+
+.nav__row {
     width: 100%;
     max-width: 1200px;  
-    margin: 0 auto;    
+    margin: 0 auto;
+    padding: 16px;
 }
 
 .nav__container {
@@ -46,13 +49,58 @@ html {
     width: 180px;    
 }
 
-ul {
+.nav__links {
     display: flex;
 }
 
-li {
+.nav__link {
     list-style-type: none;
 }
 
-/* HEADING */
+/* TWO COLUMN HEADING */
 
+.text--purple {
+    color: rgba(100,21,255);
+}
+
+.two-column__container {
+    padding: 96px 32px;;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column-left {
+    width: 40%;
+    padding: 16px;
+
+}
+
+.column-right {
+    width: 60%;    
+}
+
+.office__pic {
+    width: 100%;
+}
+
+.column-left__header {
+    font-size: 36px;
+}
+
+.column-left__para {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 32px 0;
+}
+
+.customer__logos {
+    width: 100%;
+    margin: 80px 0 0;
+}
