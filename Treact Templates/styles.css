@@ -11,14 +11,17 @@ html {
     scroll-behavior: smooth;
 }
 
-.nav__container {
+.row {
     width: 100%;
-    max-width: 1200px;
-    padding: 0 24px;    
+    max-width: 1200px;  
+    margin: 0 auto;    
+}
+
+.nav__container {
+    padding: 0 24px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
 }
 
 .nav__link {
@@ -50,3 +53,6 @@ ul {
 li {
     list-style-type: none;
 }
+
+/* HEADING */
+
