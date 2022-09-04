@@ -26,6 +26,7 @@ button {
 
 .container {
     padding: 50px 0;
+    width: 100%;
 }
 
 .row {
@@ -220,8 +221,9 @@ nav {
     transform: translateY(-50%);
 }
 
+/* blur background on hover */
 .project__wrapper:hover .project__img {
-    transform: scale(1.07);
+    transform: scale(1.07); /* scale up by 7% */
     filter: blur(5px)
 }
 
@@ -269,4 +271,35 @@ nav {
 
 .project__description--para {
     margin: 16px 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #242424;
+    display: flex;
+    padding: 6% 0;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo--img {
+    width: 70px;
+}
+
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 28px 0;
+}
+
+.footer__social--link,
+.footer__copyright {
+    color: coral;
 }
